@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<header>
+        <h1>John Smith</h1>
+        <p id="position">Software Engineer</p>
+        <style> /* Set the background color of the body */
+            body {
+              background-color: #f5f5f5;
+            }
+            
+            /* Style the header */
+            header {
+              background-color: #333;
+              color: white;
+              padding: 20px;
+              text-align: center;
+            }
+            
+            /* Style the name in the header */
+            header h1 {
+              margin: 0;
+            }
+            
+            /* Style the position in the header */
+            header #position {
+              font-style: italic;
+            }
+            
+            /* Style the summary section */
+            section:nth-of-type(1) {
+              background-color: white;
+              border: 1px solid #ddd;
+              margin: 20px 0;
+              padding: 20px;
+            }
+            
+            /* Style the image in the summary section */
+            section:nth-of-type(1) img {
+              float: left;
+              margin-right: 20px;
+            }
+            
+            /* Style the experience section */
+            section:nth-of-type(2) {
+              background-color: #f5f5f5;
+              border: 1px solid #ddd;
+              margin: 20px 0;
+              padding: 20px;
+            }
+            
+            /* Style the skills section */
+            section:nth-of-type(3) {
+              background-color: white;
+              border: 1px solid #ddd;
+              margin: 20px 0;
+              padding: 20px;
+            }
+            
+            /* Style the skills table */
+            section:nth-of-type(3) table {
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            /* Style the skills table headers */
+            section:nth-of-type(3) th {
+              background-color: #333;
+              color: white;
+              font-weight: normal;
+              padding: 10px;
+              text-align: left;
+            }
+            
+            /* Style the skills table cells */
+            section:nth-of-type(3) td {
+              padding: 10px;
+            }
+            
+            /* Style the contact form section */
+            section:nth-of-type(4) {
+              background-color: #f5f5f5;
+              border: 1px solid #ddd;
+              margin: 20px 0;
+              padding: 20px;
+            }
+            
+            /* Style the contact form labels */
+            section:nth-of-type(4) label {
+              display: inline-block;
+              margin-bottom: 5px;
+            }
+            
+            /* Style the contact form input fields */
+            section:nth-of-type(4) input, section:nth-of-type(4) textarea {
+              border: 1px solid #ddd;
+              padding: 5px;
+            }
+            
+            /* Style the contact form submit button */
+            section:nth-of-type(4) input[type="submit"] {
+              background-color: #333;
+              border: none;
+              color: white;
+              cursor: pointer;
+              padding: 10px 20px;
+            }
+            
+            /* Style the contacts section */
+            footer {
+              background-color: #333;
+              color: white;
+              padding: 20px;
+              text-align: center;
+            }
+            
+            /* Style the contacts list */
+            footer ul {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            }
+            
+            /* Style the contacts list items */
+            footer li {
+              display: inline-block;
+              margin-right: 10px;
+            }
+            
+            /* Style the contacts links */
+            footer a {
+              color: white;
+              text-decoration: none;
+            }
+            
+            /* Style the copyright notice */
+            footer #copyright {
+              font-style: italic;
+              margin-top: 10px;
+            }
+            </style>
+        </header>
+        <section>
+        <h2>Summary</h2>
+        <p class="summary"><img src="https://cdn2.iconfinder.com/data/icons/avatars-99/62/avatar-370-456322-512.png" width="80px" alt="">
+        Deadline-oriented software engineer with lots of experience. Solid track record of architecting solutions that exceed client expectations.</p>
+        </section>
+        <section>
+        <h2>Experience</h2>
+        <ul id="experience">
+            <li>
+                <b>Senior Software Engineer - Google</b> | 2018 - Present
+            </li>
+            <li>
+                <b> Software Engineer - Facebook</b> | 2016 - 2018
+            </li>
+        </ul>
+        </section>
+        <section>
+        <h2>Skills</h2>
+        <table id="skills">
+            <tr><th>Skill</th><th>Level</th></tr>
+            <tr><td>HTML</td><td>Expert</td></tr>
+            <tr><td>CSS</td><td>Intermediate</td></tr>
+        </table>
+        </section>
+        <section>
+            <h2>Contact Form</h2>
+            <form id="contact-form">
+                <label for="name">Name: </label><input placeholder="Name" id="name" type="text" /><br>
+                <label for="email">Email: </label><input placeholder="Email" id="email" type="email" /><br>
+                <textarea placeholder="Message"></textarea><br>
+                <input type="submit" value="SEND">
+            </form>
+        </section>
+        <footer>
+        <h2>Contacts</h2>
+        <ul id="contacts">
+        <li><a href="link1" target="_blank">Sololearn</a></li>
+        <li><a href="link2" target="_blank">LinkedIn</a></li>
+        </ul>
+        <p id="copyright">Copyright &copy; John Smith</p>
+        </footer>
+	</body>
+</html>
